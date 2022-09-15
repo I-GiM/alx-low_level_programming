@@ -1,5 +1,8 @@
 #include<stdio.h>
-int main() {
-	puts("Programming is like building a multilingual puzzle");
-	return 0;
+/* A function that prints a string */
+int main(void)
+{
+	/* Function that prints a string with puys function */
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
