@@ -6,7 +6,7 @@
 /**
  * main - print last digit
  * Description:
- * Return:
+ * Return: 0
  */
 /* betty style doc for function main goes there */
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 	/* your code goes there */
 	last = n % 10;
 
-	if (last > 0 && last < 6)
+	if (last < 6)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
 	if (last > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, last);
