@@ -7,7 +7,7 @@
  * main - print last digit
  * Description:
  * Return:
- * /
+ */
 /* betty style doc for function main goes there */
 int main(void)
 {
